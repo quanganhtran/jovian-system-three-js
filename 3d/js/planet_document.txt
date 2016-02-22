@@ -1,0 +1,16 @@
+TODO
+[] Meshes
+[] Orbits
+[] Tilted axes
+[] Rotations: synchronous.
+[x] Orbital Inclination: very close to zero, all satellites are in prograde orbit.
+[x] Orbital Eccentricity: very close to zero, all satellites are in nearly circular orbit.
+
+x(m), z(m), vx(m/s), vz(m/s), mass(kg), radius, rotatePeriod(s)
+
+Jupiter
+0, 0, 0, 0, 1.8986e27, null, null
+
+Io
+0, -421800e3, 62423.1 * kph, 0, 8.931e22, null, null
+

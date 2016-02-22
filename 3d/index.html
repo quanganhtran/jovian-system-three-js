@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="libs/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="libs/three.js.r71/three.js"></script>
+    <script type="text/javascript" src="libs/three.js.r58/controls/OrbitControls.js"></script>
+    <script type="text/javascript" src="libs/requestAnimationFrame/RequestAnimationFrame.js"></script>
+    <script type="text/javascript" src="js/action_render.js"></script>
+</head>
+<body>
+<canvas id="glc" width="1600" height="800"></canvas><br>
+<button onclick="topDownCamera()">Top-down Camera</button>
+<button onclick="frontCamera()">Front Camera</button>
+<button onclick="defaultCamera()">Default Camera</button>||
+<button onclick="setQuality(5)">Ultra Quality</button>
+<button onclick="setQuality(3)">High Quality</button>
+<button onclick="setQuality(2)">Medium Quality</button>
+<button onclick="defaultQuality()">Low Quality</button>||
+<button onclick="setRadius('real')">Realistic Sizing</button>
+<button onclick="setRadius('easy')">Easy Sizing</button>
+<button onclick="setRadius('large')">Large Sizing</button>||
+<button onclick="turnOnOffBg()">Turn Background On/Off</button>
+</body>
+</html>

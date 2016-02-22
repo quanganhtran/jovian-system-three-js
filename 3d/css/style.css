@@ -1,0 +1,21 @@
+canvas {
+    border: none;
+    background-color:#000000;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+th, td {
+    width: 600px;
+    min-width: 300px;
+    border: solid;
+}
+
+.fcol {
+    min-width: 50px;
+}
